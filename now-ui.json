@@ -1,0 +1,35 @@
+{
+	"components": {
+	    "bmwag-welcome-writer": {
+	        "innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "Welcome Writer",
+				"icon": "document-outline",
+				"description": "Custom component for welcome writer",
+				"category": "primitives"
+			},
+			"properties": [
+                {
+                    "name": "welcome",
+                    "label": "Welcome",
+                    "description": "",
+                    "readOnly": false,
+                    "fieldType": "string",
+                    "required": true,
+                    "defaultValue": "Welcome to your ITSM.NEXT Self Service Portal"
+                },
+				{
+                    "name": "salutation",
+                    "label": "Salutation",
+                    "description": "",
+                    "readOnly": false,
+                    "fieldType": "string",
+                    "required": true,
+                    "defaultValue": "Hi, Nuno André Costa"
+                }
+            ]
+	    }
+	},
+	"scopeName": "x_bmwag_custom_w_0"
+}
